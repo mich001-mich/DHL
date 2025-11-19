@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 70%;
+    width: 70%;
+    padding-left: 30px;
+}
+
+.navbar .navbar-links {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-links p {
+    font-size: medium;
+}
+
+.navbar-links p:hover {
+    color: brown;
+    transition: 0.3s;
+}
+
+.navbar2 {
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar21 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar22 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar2 p:hover {
+    color: brown;
+    transition: 0.3s;
+}
+
+.centerpiece {
+    background-image: url(../IMG/centerpic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100vw;
+    background-color: aqua;
+    align-content: center;
+    justify-items: center;
+}
+
+.centerpiece-box {
+    height: 50%;
+    width: 40%;
+    background-color: blue;
+}
+
+.centerpiece-box P{
+    font-size: x-large;
+    color: azure;
+    font-weight: 900;
+}
