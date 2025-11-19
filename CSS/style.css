@@ -83,13 +83,50 @@
 }
 
 .centerpiece-box {
-    height: 50%;
+    height: 30%;
     width: 40%;
-    background-color: blue;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.centerpiece-box P{
+.centerpiece-box P {
     font-size: x-large;
     color: azure;
     font-weight: 900;
 }
+
+.srbox {
+    height: 45%;
+    width: 100%;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.srbox i{
+    font-size: 20px;
+    color: rgba(56, 55, 55, 0.678);
+}
+
+.srbox input {
+    width: 70%;
+    height: 100%;
+    color: brown;
+    border: none;
+    outline: none;
+}
+
+.srbox button{
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+
