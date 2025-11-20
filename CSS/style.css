@@ -226,3 +226,128 @@ body {
     font-weight: 900;
 }
 
+.card1 {
+    height: 80vh;
+    width: 100vw;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.card2{
+    height: 80vh;
+    width: 100vw;
+    background-color: aqua;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.card11 {
+    height: 90%;
+    width: 40%;
+    z-index: 99;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card11.mr{
+    margin-right: -40px;
+}
+.card11.ml{
+    margin-left: -40px;
+}
+ .card12 {
+    background-image: url(../IMG/woman-signs-for-package-0002.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 40%;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.card121 {
+    background-image: url(../IMG/workers-at-the-container-port-0001.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 40%;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.services {
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.services-inside {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-inner {
+    height: 50%;
+    width: 50%;
+    background-color: rgb(245, 245, 245);
+}
+
+.services-inner2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(245, 245, 245);
+}
+
+.services-inner i{
+    background-color: gold;
+    padding: 3px;
+}
+
+
+.services-inner2 i{
+    background-color: gold;
+    padding: 3px;
+}
+
+
+.servicebutton {
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicebutton button {
+    background-color: red;
+    width: 90%;
+    height: 50%;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.servicebutton button:hover{
+    background-color: rgb(95, 25, 25);
+    transition: 0.3s;
+}
