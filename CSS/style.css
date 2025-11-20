@@ -236,7 +236,7 @@ body {
     margin-bottom: 8rem;
 }
 
-.card2{
+.card2 {
     height: 80vh;
     width: 100vw;
     background-color: aqua;
@@ -260,13 +260,16 @@ body {
     z-index: 99;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.card11.mr{
+
+.card11.mr {
     margin-right: -40px;
 }
-.card11.ml{
+
+.card11.ml {
     margin-left: -40px;
 }
- .card12 {
+
+.card12 {
     background-image: url(../IMG/woman-signs-for-package-0002.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -310,19 +313,19 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-.services-inner2{
+.services-inner2 {
     height: 50%;
     width: 50%;
     background-color: rgb(245, 245, 245);
 }
 
-.services-inner i{
+.services-inner i {
     background-color: gold;
     padding: 3px;
 }
 
 
-.services-inner2 i{
+.services-inner2 i {
     background-color: gold;
     padding: 3px;
 }
@@ -347,27 +350,61 @@ body {
     font-size: medium;
 }
 
-.servicebutton button:hover{
+.servicebutton button:hover {
     background-color: rgb(95, 25, 25);
     transition: 0.3s;
 }
 
-.service-update{
+.service-update {
     height: 20vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 100px;
+    margin-bottom: 150px;
 }
 
-.service-update p{
+.service-update p {
     font-size: xx-large;
     font-weight: 800;
 }
 
-.service-update h3:hover{
+.service-update h3:hover {
     color: brown;
     transition: 0.3s;
 }
 
+.big-card{
+    height: 50vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card111{
+    height: 30vh;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: aqua;
+}
+
+.card222{
+    height: 30vh;
+    width: 50vw;
+}
+.card-body1{
+    background-color: transparent;
+}
+
+
+.card-body2{
+    width: 80%;
+}
+
+.quick-links{
+    
+}
