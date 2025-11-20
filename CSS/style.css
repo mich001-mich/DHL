@@ -85,7 +85,7 @@
 .centerpiece-box {
     height: 30%;
     width: 40%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -103,11 +103,12 @@
     background-color: white;
     padding: 3px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+    border-radius: 3px;
 }
 
-.srbox i{
+.srbox i {
     font-size: 20px;
     color: rgba(56, 55, 55, 0.678);
 }
@@ -120,7 +121,7 @@
     outline: none;
 }
 
-.srbox button{
+.srbox button {
     background-color: red;
     height: 100%;
     width: 20%;
@@ -128,5 +129,49 @@
     color: white;
     font-size: medium;
     font-weight: 700;
+}
+
+.functions {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+}
+
+.functions .functions-text {
+    height: 80%;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    z-index: 50;
+    border: rgba(160, 150, 150, 0.664) 0.4px solid;
+}
+
+.functions-text:hover{
+    scale: 1.1;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     z-index: 55;
+}
+
+.functions-text i {
+    color: red;
+    font-size: xx-large;
+}
+
+.functions-text h2  {
+    color: black;
+    font-size: large;
+}
+.functions-text  p {
+    color: black;
+}
+
+#incr {
+    margin-top: -35px;
+    height: 100%;
 }
 
