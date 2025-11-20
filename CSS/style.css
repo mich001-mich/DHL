@@ -351,3 +351,23 @@ body {
     background-color: rgb(95, 25, 25);
     transition: 0.3s;
 }
+
+.service-update{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.service-update p{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.service-update h3:hover{
+    color: brown;
+    transition: 0.3s;
+}
+
