@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     height: 10vh;
     width: 100vw;
@@ -151,10 +155,10 @@
     border: rgba(160, 150, 150, 0.664) 0.4px solid;
 }
 
-.functions-text:hover{
+.functions-text:hover {
     scale: 1.1;
-     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-     z-index: 55;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 55;
 }
 
 .functions-text i {
@@ -162,16 +166,63 @@
     font-size: xx-large;
 }
 
-.functions-text h2  {
+.functions-text h2 {
     color: black;
     font-size: large;
 }
-.functions-text  p {
+
+.functions-text p {
     color: black;
 }
 
 #incr {
     margin-top: -35px;
     height: 100%;
+    padding: 0 6px;
+}
+
+.mission {
+    height: 40vh;
+    width: 100vw;
+    background-color: gold;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.mission-img {
+    background-image: url(../IMG/glo-core-person-holding-paperwork.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15%;
+    height: 100%;
+}
+
+.mission-text {
+    height: 80%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mtext {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mission-text button {
+    background-color: red;
+    width: 20%;
+    height: 25%;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 900;
 }
 
