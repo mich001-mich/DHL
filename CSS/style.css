@@ -362,7 +362,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 0 100px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .service-update p {
@@ -376,40 +376,47 @@ body {
 }
 
 .big-card {
-    height: 50vh;
+    height: 500px;
     width: 100vw;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .card111 {
-    height: 30vh;
-    width: 40vw;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-color: aqua;
+    height: 100%;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card222 {
-    height: 30vh;
-    width: 50vw;
+.card111 img {
+    width: 100%;
+    height: 70%;
 }
 
 .card-body1 {
-    background-color: transparent;
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-body1:hover h2 {
+    color: brown;
+    transition: 0.4s;
 }
 
 
-.card-body2 {
-    width: 80%;
-}
+
 
 .quick-links {
     height: 50vh;
     width: 100Vw;
-    margin-top: 250px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid black;
@@ -420,7 +427,7 @@ body {
     width: 30%;
     display: flex;
     flex-direction: column;
-   gap: 20px;
+    gap: 20px;
     text-align: center;
     padding: 8px;
 }
@@ -449,4 +456,67 @@ body {
 
 .odd {
     color: rgb(156, 20, 20);
+}
+
+.quick-links2 h3 {
+    font-weight: 700;
+}
+
+.quick-links3 h3 {
+    font-weight: 700;
+}
+
+.ending {
+    height: 35vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+.ending1 {
+
+    width: 100%;
+    height: 30%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ending-logo {
+    height: 100%;
+    width: 30%;
+}
+
+.ending-logo img {
+    margin-left: 80px;
+    margin-top: 10px;
+    justify-items: center;
+}
+
+.socials {
+    padding: 10px;
+    height: 100%;
+    width: 30%;
+}
+
+.socials h4 {
+    margin-left: 10px;
+}
+
+.socials-icon {
+    width: 80%;
+    height: 70%;
+}
+
+.socials-icon {
+    font-size: x-large;
+}
+
+.socials-icon i {
+    margin-left: 10px;
+    margin-top: 8px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+}
+
+.socials-icon i:hover {
+    border-color: black;
 }
