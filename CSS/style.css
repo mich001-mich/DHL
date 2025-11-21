@@ -467,7 +467,7 @@ body {
 }
 
 .ending {
-    height: 35vh;
+    height: 30vh;
     width: 100vw;
     background-color: gray;
 }
@@ -475,7 +475,7 @@ body {
 .ending1 {
 
     width: 100%;
-    height: 30%;
+    height: 35%;
     background-color: blueviolet;
     display: flex;
     justify-content: space-between;
@@ -519,4 +519,12 @@ body {
 
 .socials-icon i:hover {
     border-color: black;
+}
+
+.conditions{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding: 10px 60px;
+    gap: 20px;
 }
